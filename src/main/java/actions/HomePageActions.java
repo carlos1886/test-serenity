@@ -19,4 +19,17 @@ public class HomePageActions {
     public String getHomePageText() {
         return homePageLocators.homePageUserName.getText();
     }
+
+    public String getSummaryData(){
+        return homePageLocators.summaryBoxes.getText();
+    }
+    public boolean getOrdersGraph(){
+        return homePageLocators.ordersGraph.isDisplayed();
+    }
+    public boolean getChat(){
+        return homePageLocators.chat.isDisplayed();
+    }
+    public boolean getworldGraph(){
+        return homePageLocators.worldGraph.isDisplayed();
+    }
 }

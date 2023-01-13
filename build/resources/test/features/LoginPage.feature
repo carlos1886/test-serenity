@@ -1,7 +1,7 @@
 Feature: Login to serenity Application and validate Login
 
   Background:
-    Given User is on HRMLogin page "https://demo.serenity.is/"
+    Given User is on Serenity page "https://demo.serenity.is/"
 
   @ValidCredentials
   Scenario: Login with valid credentials

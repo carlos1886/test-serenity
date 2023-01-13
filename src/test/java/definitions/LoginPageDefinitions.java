@@ -15,7 +15,7 @@ public class LoginPageDefinitions {
     LoginPageActions objLogin = new LoginPageActions();
     HomePageActions objHomePage = new HomePageActions();
 
-    @Given("User is on HRMLogin page {string}")
+    @Given("User is on Serenity page {string}")
     public void loginTest(String url) {
 
         HelperClass.openPage(url);
